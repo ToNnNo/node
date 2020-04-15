@@ -28,7 +28,7 @@ let html = `<!doctype html>
             <hr />
         </header>
         <nav>
-            <a href="/">Acceuil</a> - 
+            <a href="/">Accueil</a> - 
             <a href="/about">A propos</a> - 
             <a href="/user/1">Utilisateur</a> - 
             <a href="/formulaire">Formulaire</a>
