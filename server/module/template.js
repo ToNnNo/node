@@ -14,16 +14,32 @@ template._404 = (request, response) => {
     response.end();
 };
 
-template.page = (body) => {
+template.page = (param) => {
 let html = `<!doctype html>
 <html lang="fr">
     <head>
-        <title>Server</title>
+        <title>${param.title}</title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="/public/css/style.css" />
     </head>
     <body>
-        ${body}
+        <header>
+            <h1>${param.title}</h1>
+            <hr />
+        </header>
+        <nav>
+            <a href="/">Acceuil</a> - 
+            <a href="/about">A propos</a> - 
+            <a href="/user/1">Utilisateur</a> - 
+            <a href="/formulaire">Formulaire</a>
+        </nav>
+        <section>
+            ${param.body}
+        </section>
+        <footer>
+            <hr />
+            <p class="text-center">Formation NodeJS - Dawan FOAD - Avril 2020</p>
+        </footer>
     </body>
 </html>`;
 
