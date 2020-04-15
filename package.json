@@ -1,0 +1,26 @@
+{
+  "name": "formation",
+  "version": "1.0.0",
+  "description": "Formation NodeJS Dawan du 14 avril 2020",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel babel -d dist",
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ToNo",
+  "license": "MIT",
+  "dependencies": {
+    "co-body": "^6.0.0",
+    "cowsay": "^1.4.0",
+    "esm": "^3.2.25",
+    "find-my-way": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "nodemon": "^2.0.3"
+  }
+}

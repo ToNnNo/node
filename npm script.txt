@@ -1,0 +1,6 @@
+doc: https://docs.npmjs.com/misc/scripts
+
+scripts npm -> package.json: "scripts": {}
+
+ - la commande est prédéfini chez npm et dans ce cas pour la lancer: npm ... ex: npm start
+ - la commande n'est pas prédéfini chez npm et dans ce cas pour la lancer: npm run ... ex: npm run build
