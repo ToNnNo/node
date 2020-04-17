@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+    <h1>Bienvenue sur notre projet Express</h1>
+
+    <img src="/images/batman.jpg" alt="batman" />
+
+    <p>Message = {{ message }}</p>
+
+    <p>Message en html = {{ message|safe }}</p>
+
+{% endblock %}

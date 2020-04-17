@@ -1,0 +1,13 @@
+h1 {
+    color: darkorange;
+    margin-bottom: 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+.text-center {
+    text-align: center;
+}

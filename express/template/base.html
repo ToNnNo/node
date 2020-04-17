@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <title>{% block title %}Welcome{% endblock %}</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+    <header>
+        <h1>Server Node Express</h1>
+        <hr />
+    </header>
+    <nav>
+        <a href="/">Accueil</a> -
+        <a href="/about" target="_blank">About (json)</a> -
+        <a href="/404">Erreur 404</a> -
+        <a href="/500">Erreur 500</a> -
+        <a href="/livre">Livre</a>
+    </nav>
+    <section>
+        {% block body %}{% endblock %}
+    </section>
+    <footer>
+        <hr />
+        <p>Formation Node - Dawan FOAD - Avril 2020</p>
+    </footer>
+</body>
+</html>
