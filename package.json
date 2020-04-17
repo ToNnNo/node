@@ -6,22 +6,34 @@
   "scripts": {
     "build": "babel babel -d dist",
     "start": "nodemon server/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:express": "nodemon express/index.js -e js,json,html",
+    "test": "npx mocha -w --timeout 10000"
   },
   "author": "ToNo",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "co-body": "^6.0.0",
+    "cors": "^2.8.5",
     "cowsay": "^1.4.0",
     "esm": "^3.2.25",
+    "express": "^4.17.1",
     "find-my-way": "^3.0.0",
-    "mime-types": "^2.1.26"
+    "helmet": "^3.22.0",
+    "mime-types": "^2.1.26",
+    "nunjucks": "^3.2.1",
+    "nunjucks-date": "^1.5.0",
+    "sequelize": "^5.21.6",
+    "sqlite3": "^4.1.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
     "@babel/node": "^7.8.7",
     "@babel/preset-env": "^7.9.5",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^7.1.1",
     "nodemon": "^2.0.3"
   }
 }
