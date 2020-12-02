@@ -18,7 +18,7 @@
     "cowsay": "^1.4.0",
     "esm": "^3.2.25",
     "express": "^4.17.1",
-    "find-my-way": "^3.0.0",
+    "find-my-way": "^3.0.5",
     "helmet": "^3.22.0",
     "mime-types": "^2.1.26",
     "nunjucks": "^3.2.1",
