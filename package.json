@@ -23,7 +23,7 @@
     "mime-types": "^2.1.26",
     "nunjucks": "^3.2.1",
     "nunjucks-date": "^1.5.0",
-    "sequelize": "^5.21.6",
+    "sequelize": "^6.29.0",
     "sqlite3": "^4.1.1"
   },
   "devDependencies": {
